@@ -13,8 +13,7 @@
 		4C51D87D27263E65007F9A99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C51D87C27263E65007F9A99 /* Preview Assets.xcassets */; };
 		4C51D88927263FA0007F9A99 /* Relay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D88827263FA0007F9A99 /* Relay.swift */; };
 		4C51D88B27264126007F9A99 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D88A27264126007F9A99 /* HomeModel.swift */; };
-		4C51D88D27264EA1007F9A99 /* ShellyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D88C27264EA1007F9A99 /* ShellyResponse.swift */; };
-		4C51D8912728C0DD007F9A99 /* RelayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D8902728C0DD007F9A99 /* RelayService.swift */; };
+		4C51D88D27264EA1007F9A99 /* ShellyResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D88C27264EA1007F9A99 /* ShellyResponses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +24,8 @@
 		4C51D87C27263E65007F9A99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C51D88827263FA0007F9A99 /* Relay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relay.swift; sourceTree = "<group>"; };
 		4C51D88A27264126007F9A99 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
-		4C51D88C27264EA1007F9A99 /* ShellyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellyResponse.swift; sourceTree = "<group>"; };
+		4C51D88C27264EA1007F9A99 /* ShellyResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellyResponses.swift; sourceTree = "<group>"; };
 		4C51D88E272657AE007F9A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		4C51D8902728C0DD007F9A99 /* RelayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4C51D88827263FA0007F9A99 /* Relay.swift */,
-				4C51D88C27264EA1007F9A99 /* ShellyResponse.swift */,
+				4C51D88C27264EA1007F9A99 /* ShellyResponses.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,7 +106,6 @@
 		4C51D88F2728C0BC007F9A99 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				4C51D8902728C0DD007F9A99 /* RelayService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -183,8 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C51D88D27264EA1007F9A99 /* ShellyResponse.swift in Sources */,
-				4C51D8912728C0DD007F9A99 /* RelayService.swift in Sources */,
+				4C51D88D27264EA1007F9A99 /* ShellyResponses.swift in Sources */,
 				4C51D87827263E64007F9A99 /* HomeView.swift in Sources */,
 				4C51D88B27264126007F9A99 /* HomeModel.swift in Sources */,
 				4C51D88927263FA0007F9A99 /* Relay.swift in Sources */,

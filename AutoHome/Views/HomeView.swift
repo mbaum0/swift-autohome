@@ -36,7 +36,7 @@ struct HomeView: View {
                 ForEach($homeModel.relays) { $relay in
                     Toggle(relay.name, isOn: $relay.on)
                         .onChange(of: relay.on) { value in
-                            homeModel.setRelayOn(id: relay.id, on: value)
+                            homeModel.setRelayModelOn(id: relay.id, on: value)
                         }
                 }
             }
